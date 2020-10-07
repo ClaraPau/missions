@@ -1,0 +1,75 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("rotoruatrees.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  filter: saturate(0%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  text-align: left;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: wheat;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  padding: 0px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h2 {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.link { color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+}
+ /* CSS link color (white) */
+.link:hover { color: wheat; } /* CSS link hover (wheat) */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
