@@ -1,9 +1,10 @@
-
+/**Check what this body text does**/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.hero-image {
+/**Background image styling, through the sections**/
+.hero-image1 {
   background-image: url("rotoruatrees.jpg");
   background-color: #cccccc;
   height: 1000px;
@@ -14,6 +15,29 @@ body {
   position: relative;
 }
 
+.hero-image2 {
+  background-image: url("mangawhai.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  filter: saturate(0%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-image3 {
+  background-image: url("rotoruatreeswalking.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  filter: saturate(0%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/**Styling the text**/
 h1 {
   text-align: left;
   position: absolute;
@@ -25,13 +49,7 @@ h1 {
   font-size: 100px;
 }
 
-/* Style the header */
-.header {
-  grid-area: header;
-  padding: 0px;
-  text-align: left;
-}
-
+/**Styling my navigation section**/
 ul {
   list-style-type: none;
   margin: 0;
@@ -72,4 +90,3 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-
