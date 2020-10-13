@@ -28,7 +28,7 @@ body {
 }
 
 .hero-image3 {
-  background-image: url("rotoruatreeswalking.jpg");
+  background-image: url("otago.jpg");
   background-color: #cccccc;
   height: 1000px;
   -webkit-filter: grayscale(100%);
@@ -40,7 +40,7 @@ body {
 }
 
 .hero-image4 {
-  background-image: url("otago.jpg");
+  background-image: url("colo-i-suva.jpg");
   background-color: #cccccc;
   height: 1000px;
   -webkit-filter: grayscale(100%);
