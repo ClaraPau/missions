@@ -36,11 +36,25 @@
             <li><a class="link" href="#section4">Whakapā mai ki au // Contact me</a></li>
         </h2>
         </ul>
-        </div>
-        
- </div>
- </div>
- </div>
+
+<!--Trying to create a mouseover affect so that one section 'highlights' when the user is in it, and the rest remain dark-->
+        <script>
+        document.getElementById("hero-image1").addEventListener("mouseover", mouseOver);
+        document.getElementById("hero-image1").addEventListener("mouseout", mouseOut);
+
+        function mouseOver() {
+        document.getElementById("hero-image1").style.opacity = 100
+        }
+
+        function mouseOut() {
+        document.getElementById("hero-image1").style.opacity = 50
+        }
+
+        </script>
+</div>        
+</div>
+</div>
+</div>
 
 </section>
  
@@ -85,9 +99,9 @@
  <div class="hero-image4">
  <div class="hero-text4">
     <h2>Whakapā mai ki au<br>
-    <p>Anei tāku wāhitau īmēra: clara.kathryn.pau@gmail.com</p>
+    <p><address>Anei tāku wāhitau īmēra: <a href="mailto:clara.kathryn.pau@gmail.com">clara.kathryn.pau@gmail.com</a></address></p>
     </h2>
-    <div>
+
     <a href="#section1">Home</a>
     </div>
 </div>

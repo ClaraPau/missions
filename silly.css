@@ -94,6 +94,17 @@ li a {
   text-decoration: none;
 }
 
+address {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  color: whitesmoke;
+}
+
+.mail a {
+  color: whitesmoke;
+}
+
+
 .link { color: whitesmoke;
 font-family: Arial, Helvetica, sans-serif;
 }
@@ -105,7 +116,7 @@ a:link {
 }
 
 a:visited {
-  text-decoration: none;
+  color: wheat;
 }
 
 a:hover {
@@ -115,3 +126,9 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+div.relative {
+  position: relative;
+  width: 50%;
+  bottom: 5px;
+} 
