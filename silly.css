@@ -6,13 +6,28 @@ body {
 /**Background image styling, through the sections**/
 .hero-image1 {
   background-image: url("rotoruatrees.jpg");
-  background-color: #cccccc;
+  background-color: black;
   height: 1000px;
   filter: saturate(0%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.9;
+
+}
+
+.hero-image1:hover {
+opacity: 1;
+}
+
+.Hometag
+{
+  display: block;
+  color: whitesmoke;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .hero-image2 {
@@ -25,7 +40,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.9;
 }
+
+.hero-image2:hover {
+  opacity: 1;
+  }
 
 .hero-image3 {
   background-image: url("otago.jpg");
@@ -37,7 +57,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.9;
 }
+
+.hero-image3:hover {
+  opacity: 1;
+  }
 
 .hero-image4 {
   background-image: url("colo-i-suva.jpg");
@@ -49,7 +74,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  opacity: 0.9;
 }
+
+.hero-image4:hover {
+  opacity: 1;
+  }
 
 /**Styling the text**/
 h1 {
@@ -86,32 +116,28 @@ h2 {
   text-decoration: none;
 }
 
-li a {
-  display: block;
-  color: whitesmoke;
-  text-align: left;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 address {
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   color: whitesmoke;
+  text-align: left;
 }
 
 .mail a {
   color: whitesmoke;
 }
 
-
 .link { color: whitesmoke;
 font-family: Arial, Helvetica, sans-serif;
 }
+
  /* CSS link color (white) */
 .link:hover { color: wheat; } /* CSS link hover (wheat) */
 
 a:link {
+  color: wheat;
+  text-align: right;
+  position: relative;
   text-decoration: none;
 }
 
@@ -120,11 +146,11 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: none;
+color: wheat;
 }
 
 a:active {
-  text-decoration: none;
+  color: wheat;
 }
 
 div.relative {
